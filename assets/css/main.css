@@ -457,50 +457,50 @@ th {
  *-----------------------------------------------------------------------------
  *----------------------------------------------------------------------------- */
 body {
-  background: #c0c0c0;
-  color: #32cd32;
+  background: #53688b;
+  color: #30548d;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
 }
 h1,
 .h1 {
-  color: #32cd32;
+  color: #30548d;
   font-size: 40px;
   font-size: 2.5rem;
   font-weight: 700;
 }
 h2,
 .h2 {
-  color: #32cd32;
+  color: #30548d;
   font-size: 32px;
   font-size: 2rem;
   font-weight: 700;
 }
 h3,
 .h3 {
-  color: #32cd32;
+  color: #30548d;
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 700;
 }
 h4,
 .h4 {
-  color: #32cd32;
+  color: #30548d;
   font-size: 20px;
   font-size: 1.25rem;
   font-weight: 700;
 }
 h5,
 .h5 {
-  color: #32cd32;
+  color: #30548d;
   font-size: 16px;
   font-size: 1rem;
   font-weight: 700;
 }
 h6,
 .h6 {
-  color: #32cd32;
+  color: #30548d;
   font-size: 16px;
   font-size: 1rem;
   font-weight: 700;
@@ -509,13 +509,13 @@ p {
   margin-bottom: 20px;
 }
 a {
-  color: #32cd32;
+  color: #30548d;
 }
 a:hover {
-  color: #32cd32;
+  color: #30548d;
 }
 a.active {
-  color: #32cd32;
+  color: #30548d;
 }
 strong {
   font-weight: 700;
@@ -555,11 +555,11 @@ lesshat-selector {
  * the width to @page-container-width
  */
 .page-container {
-  width: 1140px;
-  margin: 0 auto;
-  padding-right: 20px;
-  padding-left: 20px;
-  background: #f8f8ff;
+  width: 700px;
+  margin: 30px auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #ffffff;
 }
 /**
  * Apply to any element that will be the outmost container of site content to contain
@@ -567,7 +567,7 @@ lesshat-selector {
  * (responsive sites)
  */
 .page-container-flex {
-  max-width: 1140px;
+  max-width: 700px;
   margin: 0 auto;
 }
 /*-------------------------------------------- */
@@ -611,6 +611,15 @@ lesshat-selector {
 .btn.secondary-btn {
   background: #32cd32;
 }
+/**
+ * Floats style. General Floats.
+ */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
 /*-----------------------------------------------------------------------------
  *-----------------------------------------------------------------------------
  *
@@ -622,6 +631,60 @@ lesshat-selector {
  *
  *-----------------------------------------------------------------------------
  *----------------------------------------------------------------------------- */
+.hot-right-now {
+  width: 100%;
+  max-width: 600px;
+}
+.hot-now-header {
+  padding: 30px 0 20px 0;
+  border-bottom: 2px solid #30548d;
+}
+.hot-now-header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-size: 1.625rem;
+  text-transform: uppercase;
+}
+.hot-now-article {
+  *zoom: 1;
+  border-bottom: 2px solid #30548d;
+  padding: 30px 0;
+}
+.hot-now-article:before,
+.hot-now-article:after {
+  content: "";
+  display: table;
+}
+.hot-now-article:after {
+  clear: both;
+}
+.hot-now-article:before,
+.hot-now-article:after {
+  content: "";
+  display: table;
+}
+.hot-now-article:after {
+  clear: both;
+}
+.hot-now-article:last-child {
+  border-bottom: none;
+}
+.hot-now-number {
+  display: block;
+  margin: 0 28px 0 0;
+  font-size: 36px;
+  font-size: 2.25rem;
+}
+.hot-now-img {
+  display: block;
+  margin: 0 28px 0 0;
+}
+.hot-now-article-title {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
 /*-----------------------------------------------------------------------------
  *----------------------------------------------------------------------------- 
  *
