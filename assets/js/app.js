@@ -72,11 +72,11 @@
         render: function () {
             var that = this;
             _.each(this.collection.models, function (item) {
-                that.renderContact(item);
+                that.renderArticle(item);
             }, this);
         },
      
-        renderContact: function (item) {
+        renderArticle: function (item) {
             var articleView = new ArticleView({
                 model: item
             });
