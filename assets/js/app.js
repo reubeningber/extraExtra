@@ -2,34 +2,33 @@
  
     var articles = [
         {
-            title: "Artile Title Goes Here",
-            rank: "#",
+            title: "Article Title Goes Here",
+            rank: "1",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Artile Title Goes Here",
-            rank: "#",
+            title: "Article Title Goes Here",
+            rank: "2",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Artile Title Goes Here",
-            rank: "#",
+            title: "Article Title Goes Here",
+            rank: "3",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Artile Title Goes Here",
-            rank: "#",
+            title: "Article Title Goes Here",
+            rank: "4",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Artile Title Goes Here",
-            rank: "#",
-            url: "#",
-            img: "http://placehold.it/165x125"
+            title: "Article Title Goes Here",
+            rank: "5",
+            url: "#"
         },
     ];
 
