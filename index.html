@@ -17,18 +17,18 @@
                 </header>
                 <script id="articleTemplate" type="text/template">
                     
-                    <span class="hot-now-number fl"><%= rank %></span>
+                    <span class="hot-now-number fl">{{rank}}</span>
 
-                    <img src="<%= img %>" alt="<%= title %>" class="hot-now-img fl">
+                    <img src="{{img}}" alt="{{title}}" class="hot-now-img fl">
 
-                    <h2 class="hot-now-article-title fl"><%= title %></h2>
+                    <h2 class="hot-now-article-title fl">{{title}}</h2>
                 </script>
                 <div id="article-container"></div>
      		</section>
         </section>
 
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/underscore-min.js"></script>
+        <script src="assets/js/vendor/handlebars-v3.0.0.js"></script>
         <script src="assets/js/vendor/backbone-min.js"></script>
         <script src="assets/js/app.js"></script>
     </body>

@@ -56,7 +56,7 @@
         template: $("#articleTemplate").html(),
      
         render: function () {
-            var tmpl = _.template(this.template);
+            var tmpl = Handlebars.compile(this.template);
      
             this.$el.html(tmpl(this.model.toJSON()));
             return this;
