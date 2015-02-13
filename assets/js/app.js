@@ -1,32 +1,34 @@
 (function ($) {
  
+    // Define Content 
+
     var articles = [
         {
-            title: "Article Title Goes Here",
+            title: "Hospital Worker Who Handled Ebola Samples Is on Cruise Ship",
             rank: "1",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Article Title Goes Here",
+            title: "Why Dr. Kent Brantly Couldn't Donate Blood to Thomas Eric...",
             rank: "2",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Article Title Goes Here",
+            title: "Joan Rivers' Cause of Death Revealed",
             rank: "3",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Article Title Goes Here",
+            title: "Ebola Nurse Goes From Good to Fair After Trip to NIH",
             rank: "4",
             url: "#",
             img: "http://placehold.it/165x125"
         },
         {
-            title: "Article Title Goes Here",
+            title: "Nurse With Ebola Appears on Camera for 1st Time",
             rank: "5",
             url: "#"
         },
