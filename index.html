@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+ <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,47 +15,21 @@
                 <header class="hot-now-header">
                     <h1>Hot Right Now</h1>
                 </header>
+                <script id="articleTemplate" type="text/template">
+                    
+                    <span class="hot-now-number fl"><%= rank %></span>
 
-                <article class="hot-now-article">
-                    <span class="hot-now-number fl">1</span>
+                    <img src="<%= img %>" alt="<%= title %>" class="hot-now-img fl">
 
-                    <img src="http://placehold.it/165x125" alt="" class="hot-now-img fl">
-
-                    <h2 class="hot-now-article-title fl">Article Title</h2>
-                </article>
-
-                <article class="hot-now-article">
-                    <span class="hot-now-number fl">2</span>
-
-                    <img src="http://placehold.it/165x125" alt="" class="hot-now-img fl">
-
-                    <h2 class="hot-now-article-title fl">Article Title</h2>
-                </article>
-
-                <article class="hot-now-article">
-                    <span class="hot-now-number fl">3</span>
-
-                    <img src="http://placehold.it/165x125" alt="" class="hot-now-img fl">
-
-                    <h2 class="hot-now-article-title fl">Article Title</h2>
-                </article>
-
-                <article class="hot-now-article">
-                    <span class="hot-now-number fl">4</span>
-
-                    <img src="http://placehold.it/165x125" alt="" class="hot-now-img fl">
-
-                    <h2 class="hot-now-article-title fl">Article Title</h2>
-                </article>
-
-                <article class="hot-now-article">
-                    <span class="hot-now-number fl">5</span>
-
-                    <img src="http://placehold.it/165x125" alt="" class="hot-now-img fl">
-
-                    <h2 class="hot-now-article-title fl">Article Title</h2>
-                </article>
-    		</section>
+                    <h2 class="hot-now-article-title fl"><%= title %></h2>
+                </script>
+                <div id="article-container"></div>
+     		</section>
         </section>
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/underscore-min.js"></script>
+        <script src="assets/js/vendor/backbone-min.js"></script>
+        <script src="assets/js/app.js"></script>
     </body>
 </html>
