@@ -694,6 +694,16 @@ lesshat-selector {
   font-size: 1.8125rem;
   font-weight: normal;
 }
+.credits {
+  background: transparent;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+.credits a {
+  color: #ffffff;
+}
 /*-----------------------------------------------------------------------------
  *----------------------------------------------------------------------------- 
  *
