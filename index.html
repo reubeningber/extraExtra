@@ -15,13 +15,13 @@
                 <header class="hot-now-header">
                     <h1>Hot Right Now</h1>
                 </header>
-                <script id="articleTemplate" type="text/template">
-                    
+                <script id="articleTemplate" type="text/template"> 
                     <span class="hot-now-number fl">{{rank}}</span>
+                    <a href="{{url}}">
+                        <img src="{{img}}" alt="{{title}}" class="hot-now-img fl">
 
-                    <img src="{{img}}" alt="{{title}}" class="hot-now-img fl">
-
-                    <h2 class="hot-now-article-title fl">{{title}}</h2>
+                        <h2 class="hot-now-article-title fl">{{title}}</h2>
+                    </a>
                 </script>
 
                 <div id="article-container"></div>

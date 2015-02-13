@@ -10,12 +10,14 @@
 	h1 {
 		margin: 0;
 		padding: 0;
-		.font-size-rems(26);
+		.font-size-rems(36);
+		font-weight: normal;
 		text-transform: uppercase;
 	}
 }
 
 .hot-now-article {
+	position: relative;
 	.clearfix();
 	border-bottom: 2px solid @blue-2;
 	padding: 30px 0;
@@ -28,7 +30,7 @@
 .hot-now-number {
 	display: block;
 	margin: 0 28px 0 0;
-	.font-size-rems(36);
+	.font-size-rems(48);
 }
 
 .hot-now-img {
@@ -37,7 +39,10 @@
 }
 
 .hot-now-article-title {
-	margin: 0;
+	margin: 25px 0;
 	padding: 0;
+	width: 350px;
 	line-height: 1;
+	.font-size-rems(29);
+	font-weight: normal;
 }
